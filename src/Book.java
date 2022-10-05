@@ -3,7 +3,6 @@ public class Book {
     private final int publishingYear;
 
 
-
     public Book(String title, int publishingYear) {
         this.title = title;
         this.publishingYear = publishingYear;
@@ -16,7 +15,9 @@ public class Book {
     public int getPublishingYear() {
         return publishingYear;
     }
-
-
-
 }
+
+
+
+
+
