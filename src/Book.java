@@ -1,20 +1,25 @@
 public class Book {
     private final String title;
-    private final int publishingYear;
+    private int  yearPublication;
 
 
-    public Book(String title, int publishingYear) {
+    public Book(String title, int  yearPublication) {
         this.title = title;
-        this.publishingYear = publishingYear;
+        this. yearPublication =  yearPublication;
     }
 
     public String getTitle() {
         return title;
     }
 
-    public int getPublishingYear() {
-        return publishingYear;
+    public int getYearPublication() {
+        return yearPublication;
     }
+    public void getYearPublication(int yearPublication ) {
+        this.yearPublication = yearPublication;
+    }
+
+
 }
 
 
