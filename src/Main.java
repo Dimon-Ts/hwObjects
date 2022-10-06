@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Домашнее задание.Объекты и классы.");
         System.out.println("Небольшой библиотечный справочник.");
+
 
         String[] title = {"War and Peace","Garden of Cherry"};
         int[]  yearPublication = {2021, 1903};
