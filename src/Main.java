@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Домашнее задание.Объекты и классы.");
-        System.out.println("Небольшой библиотечный справочник.");
+        System.out.println("Небольшой библиотечный каталог.");
 
 
         String[] title = {"War and Peace", "Garden of Cherry","Amphibian Man"};
