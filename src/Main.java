@@ -13,11 +13,28 @@ public class Main {
             System.out.println("Название книги - " + title[i] + ",автор - " + name[i] + " " + surname[i] +
                     " дата издания - " + yearPublication[i] + ".");
         }
+        System.out.println("================================================================================");
         Book book = new Book("War and Peace", 2021);
-        book.getYearPublication(1999);
-        System.out.print("Название книги - " + book.getTitle() + ",");
-        System.out.print(" дата издания - " + book.getYearPublication() + "");
         Author author = new Author("Lev", "Tolstoy.");
-        System.out.print(" ,автор : " + author.getName() + " " + author.getSurname() + " ");
+        book.getYearPublication(1999);
+        System.out.print("Название книги - " + book.getTitle() + " ,");
+        System.out.print(" дата издания - " + book.getYearPublication() + "");
+        System.out.print(" , автор : " + author.getName() + " " + author.getSurname() + " ");
+        System.out.println();
+
+        Book gardenOfCherry = new Book("Garden of Cherry", 1903);
+        Author anton = new Author("Anton", "Chekhov.");
+        System.out.print("Название книги - " + gardenOfCherry.getTitle() + " ,");
+        System.out.print(" дата издания - " + gardenOfCherry.getYearPublication() + "");
+        System.out.print(" , автор : " + anton.getName() + " " + anton.getSurname() + " ");
+        System.out.println();
+
+        Book amphibianMan = new Book("Amphibian Man", 1927);
+        Author alexandr = new Author("Alexandr", "Belyaev.");
+        System.out.print("Название книги - " + amphibianMan.getTitle() + " ,");
+        System.out.print(" дата издания - " + amphibianMan.getYearPublication() + "");
+        System.out.print(" , автор : " + alexandr.getName() + " " + alexandr.getSurname() + " ");
+
+
     }
 }
